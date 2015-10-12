@@ -1,0 +1,19 @@
+{
+  "name": "executive-user",
+  "version": "1.0.0",
+  "description": "Set Node executive user",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js $USER $USER $UID $GID"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avaq/executive-user.git"
+  },
+  "author": "Aldwin Vlasblom <aldwin.vlasblom@gmail.com> (https://github.com/avaq)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Avaq/executive-user/issues"
+  },
+  "homepage": "https://github.com/Avaq/executive-user#readme"
+}
