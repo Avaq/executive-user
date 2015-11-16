@@ -7,8 +7,8 @@ module.exports = function(uid, gid){
 
   //Attempt to pass on executive rights.
   try{
-    process.setuid(uid);
     process.setgid(gid);
+    process.setuid(uid);
   }
 
   //In case of failure, provide a clear error message.
