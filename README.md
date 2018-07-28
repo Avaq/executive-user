@@ -1,5 +1,7 @@
 # Node Executive User
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Avaq/executive-user.svg)](https://greenkeeper.io/)
+
 A small wrapper over `process.setuid` and `process.setgid`.
 
 ## Install
